@@ -1407,7 +1407,7 @@
             },
             "target": {
               "x": -1110,
-              "y": 1880
+              "y": 1720
             },
             "vertices": [
               {
@@ -1419,6 +1419,261 @@
                 "y": 1510
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage User\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Manage User\nRequest"
+            ],
+            "id": "6a518e26-c22d-443f-a3db-177a5be55f00",
+            "source": {
+              "cell": "68a9f80f-1d89-4a2b-9dac-8e193b932bea",
+              "port": "b76f9222-9696-4747-b859-2d0455bc120a"
+            },
+            "target": {
+              "cell": "d343ebd2-e454-41fb-a7f1-5a25eff35088",
+              "port": "a76ebbb8-b438-4702-9412-2970c10ba7cd"
+            },
+            "vertices": [
+              {
+                "x": -1090,
+                "y": 1590
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "d4c8ad48-c8eb-4fce-98fc-bfbe11e25704",
+            "source": {
+              "cell": "d343ebd2-e454-41fb-a7f1-5a25eff35088",
+              "port": "a76ebbb8-b438-4702-9412-2970c10ba7cd"
+            },
+            "target": {
+              "cell": "68a9f80f-1d89-4a2b-9dac-8e193b932bea",
+              "port": "b76f9222-9696-4747-b859-2d0455bc120a"
+            },
+            "vertices": [
+              {
+                "x": -1080,
+                "y": 1680
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage User Service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Manage User Service"
+            ],
+            "id": "822f43ca-fa72-45f5-8f0c-7ccbe89a7011",
+            "source": {
+              "cell": "d343ebd2-e454-41fb-a7f1-5a25eff35088",
+              "port": "ab0ed337-788b-4e6d-a503-d8d495f2e1aa"
+            },
+            "target": {
+              "cell": "f961f98e-b7d4-476b-be6a-492491e1d5fd",
+              "port": "40b5c1e3-3c8f-4bee-b479-91f0d3fae036"
+            },
+            "vertices": [
+              {
+                "x": -740,
+                "y": 1590
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage Result",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Manage Result"
+            ],
+            "id": "d15478b0-fac9-4252-ae15-76281bc74d88",
+            "source": {
+              "cell": "f961f98e-b7d4-476b-be6a-492491e1d5fd",
+              "port": "58758f50-722f-4bf5-be28-90ac4a66c28f"
+            },
+            "target": {
+              "cell": "d343ebd2-e454-41fb-a7f1-5a25eff35088",
+              "port": "ab0ed337-788b-4e6d-a503-d8d495f2e1aa"
+            },
+            "vertices": [
+              {
+                "x": -770,
+                "y": 1718
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update User\nDetail",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update User\nDetail"
+            ],
+            "id": "0cc2b2fd-3e98-4f6f-ad0e-4b7f9b31f117",
+            "source": {
+              "cell": "f961f98e-b7d4-476b-be6a-492491e1d5fd",
+              "port": "02e4c1ed-7982-4938-8015-51c7a7d226af"
+            },
+            "target": {
+              "cell": "dbfda62b-87e7-466a-b534-7a645b3600f2",
+              "port": "08ba7fe4-3de0-47c9-aa7c-81b9b2ee1218"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -3067,8 +3322,8 @@
                 "text": "Admin"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3165,15 +3420,33 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "f8b5c1ef-f51c-405b-80ba-64b5be1b9452",
+                  "title": "Admin Identity Spoofing",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "An attacker impersonates an administrator account.",
+                  "mitigation": "Multi-factor authentication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": "9"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
             "position": {
               "x": -996,
-              "y": 1592
+              "y": 1558
             },
             "size": {
               "width": 160,
@@ -3312,8 +3585,8 @@
                 "text": "Backend"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3410,18 +3683,95 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "7de0b730-8b9d-4b78-945a-64c96e682705",
+                  "title": "Unauthorized Role Modification",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attackers modify user roles to gain elevated privileges.",
+                  "mitigation": "Role-based access control verification.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": "8"
+                },
+                {
+                  "id": "c0de1803-ffad-4906-8160-b4e6c09367bd",
+                  "title": "Admin Action Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "An administrator denies making changes to user accounts.",
+                  "mitigation": "Administrative audit trail.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 28,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Backend with DB",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Backend with DB"
+            ],
+            "id": "00c5d625-3d4f-4616-88ab-e0d383a18be9",
+            "source": {
+              "x": -544,
+              "y": 628
+            },
+            "target": {
+              "x": -550,
+              "y": 1840
+            },
+            "vertices": [
+              {
+                "x": -370,
+                "y": 780
+              },
+              {
+                "x": -440,
+                "y": 850
+              },
+              {
+                "x": -500,
+                "y": 940
+              }
+            ]
+          },
+          {
             "position": {
-              "x": -462,
-              "y": 1658
+              "x": -440,
+              "y": 1700
             },
             "size": {
               "width": 120,
@@ -3429,14 +3779,16 @@
             },
             "attrs": {
               "text": {
-                "text": "Book DB"
+                "text": "User DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3524,71 +3876,56 @@
                 }
               ]
             },
-            "id": "89992499-7ac9-44d8-a806-f30d54a23719",
-            "zIndex": 27,
+            "id": "dbfda62b-87e7-466a-b534-7a645b3600f2",
+            "zIndex": 29,
             "data": {
               "type": "tm.Store",
-              "name": "Book DB",
+              "name": "User DB",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 28,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Backend with DB",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Backend with DB"
-            ],
-            "id": "00c5d625-3d4f-4616-88ab-e0d383a18be9",
-            "source": {
-              "x": -544,
-              "y": 628
-            },
-            "target": {
-              "x": -550,
-              "y": 1840
-            },
-            "vertices": [
-              {
-                "x": -370,
-                "y": 780
-              },
-              {
-                "x": -440,
-                "y": 850
-              },
-              {
-                "x": -500,
-                "y": 940
+              "threats": [
+                {
+                  "id": "4eb954af-2f72-40bf-9604-6c7a8c4845d6",
+                  "title": "User Data Exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Sensitive user information becomes accessible to unauthorized users.",
+                  "mitigation": "Encrypt sensitive user data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
               }
-            ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 19
+    "threatTop": 23
   }
 }
