@@ -1377,50 +1377,6 @@
             "vertices": []
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "User with Web App",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "22e22549-4f23-45c3-9535-7b75c3f3e4ce",
-                "d1efdbcb-67ec-46f8-9f5a-2f7187a7ccc1",
-                "dde2dfe8-7b47-4b97-920e-c96f8d91be62"
-              ],
-              "containedElements": [
-                "3f625177-0d96-4284-90e8-43a239334c57"
-              ]
-            },
-            "labels": [
-              "User with Web App"
-            ],
-            "id": "303db705-7d35-453d-9e65-fc5c9c7da586",
-            "source": {
-              "x": -1270,
-              "y": 530
-            },
-            "target": {
-              "x": -1110,
-              "y": 1720
-            },
-            "vertices": [
-              {
-                "x": -1050,
-                "y": 520
-              },
-              {
-                "x": -1090,
-                "y": 1510
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1674,6 +1630,149 @@
               "port": "08ba7fe4-3de0-47c9-aa7c-81b9b2ee1218"
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "User with Web App",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "22e22549-4f23-45c3-9535-7b75c3f3e4ce",
+                "d1efdbcb-67ec-46f8-9f5a-2f7187a7ccc1",
+                "dde2dfe8-7b47-4b97-920e-c96f8d91be62"
+              ],
+              "containedElements": [
+                "3f625177-0d96-4284-90e8-43a239334c57"
+              ]
+            },
+            "labels": [
+              "User with Web App"
+            ],
+            "id": "303db705-7d35-453d-9e65-fc5c9c7da586",
+            "source": {
+              "x": -1240,
+              "y": 550
+            },
+            "target": {
+              "x": -1080,
+              "y": 1740
+            },
+            "vertices": [
+              {
+                "x": -1100,
+                "y": 430
+              },
+              {
+                "x": -1020,
+                "y": 540
+              },
+              {
+                "x": -1060,
+                "y": 1490
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -3912,13 +4011,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
