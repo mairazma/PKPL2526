@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "3f625177-0d96-4284-90e8-43a239334c57",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Librarian",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "c4f7a592-dafe-4f4c-8aba-6c648ac1f10c",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Digital Library Web App",
@@ -288,7 +288,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "303db705-7d35-453d-9e65-fc5c9c7da586"
+              ]
             },
             "labels": [
               "Book CRUD Request"
@@ -340,7 +342,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "303db705-7d35-453d-9e65-fc5c9c7da586"
+              ]
             },
             "labels": [
               "Response"
@@ -533,7 +537,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "303db705-7d35-453d-9e65-fc5c9c7da586"
+              ]
             },
             "labels": [
               "Report Request"
@@ -654,6 +660,84 @@
             "vertices": []
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "User with Web App",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "22e22549-4f23-45c3-9535-7b75c3f3e4ce",
+                "d1efdbcb-67ec-46f8-9f5a-2f7187a7ccc1",
+                "dde2dfe8-7b47-4b97-920e-c96f8d91be62"
+              ],
+              "containedElements": [
+                "3f625177-0d96-4284-90e8-43a239334c57"
+              ]
+            },
+            "labels": [
+              "User with Web App"
+            ],
+            "id": "303db705-7d35-453d-9e65-fc5c9c7da586",
+            "source": {
+              "x": -1270,
+              "y": 530
+            },
+            "target": {
+              "x": -930,
+              "y": 1000
+            },
+            "vertices": [
+              {
+                "x": -1050,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Backend with DB",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Backend with DB"
+            ],
+            "id": "00c5d625-3d4f-4616-88ab-e0d383a18be9",
+            "source": {
+              "x": -544,
+              "y": 628
+            },
+            "target": {
+              "x": -520,
+              "y": 960
+            },
+            "vertices": [
+              {
+                "x": -370,
+                "y": 780
+              },
+              {
+                "x": -440,
+                "y": 850
+              }
+            ]
+          },
+          {
             "position": {
               "x": -590,
               "y": 740
@@ -674,6 +758,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -757,7 +842,6 @@
               ]
             },
             "id": "116a9926-34ff-4bfb-bd40-daa21f70e338",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Backend",
@@ -797,6 +881,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -880,7 +965,6 @@
               ]
             },
             "id": "8d9edd5f-1001-4206-954e-9559b1ef1f92",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Book DB",
@@ -921,6 +1005,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1004,7 +1089,6 @@
               ]
             },
             "id": "422265f1-4a92-4cf9-9a28-f8c715a24a18",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Report DB",
